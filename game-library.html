@@ -222,7 +222,59 @@
                 </div>
             </div>
         </section>
-    </main>
+
+<!-- Reserve a Game Section -->
+<section id="reserve" class="container">
+  <div class="text-center mb-4">
+    <h2 class="display-6 mb-3">Reserve a Game</h2>
+    <p>
+      Reserve a board game for your next visit to Boardwalk Games. Pick your challenge, 
+      and let the adventure begin! Fill out your details and preferred game below, 
+      and we'll have it set aside for you when you arrive.
+    </p>
+  </div>
+
+  <form action="game-library.html" method="GET" class="mx-auto" style="max-width: 900px;">
+    <div class="row g-3">
+      <div class="col-md-4">
+        <label for="name" class="form-label">Full name</label>
+        <input class="form-control" id="name" name="name" type="text" required>
+      </div>
+      <div class="col-md-4">
+        <label for="phone" class="form-label">Phone number</label>
+        <input class="form-control" id="phone" name="phone" type="tel" required>
+      </div>
+      <div class="col-md-4">
+        <label for="email" class="form-label">Email address</label>
+        <input class="form-control" id="email" name="email" type="email" required>
+      </div>
+
+      <div class="col-md-6">
+        <label for="event-type" class="form-label">Select game</label>
+        <select id="event-type" class="form-select" name="event-type" required>
+          <option value="" selected>Select game</option>
+          <option value="galaxy-pioneers">Galaxy Pioneers</option>
+          <option value="mystic-woods">Mystic Woods</option>
+          <option value="captains-gambit">Captain’s Gambit</option>
+          <option value="critter-quest">Critter Quest</option>
+          <option value="settlers-catan">Settlers of Catan</option>
+          <option value="monopoly">Monopoly</option>
+          <option value="exploding-kittens">Exploding Kittens</option>
+          <option value="cluedo">Cluedo</option>
+        </select>
+      </div>
+      <div class="col-md-6">
+        <label for="date" class="form-label">Requested date</label>
+        <input class="form-control" id="date" name="date" type="date" required>
+      </div>
+
+      <div class="col-12 text-end mb-0">
+        <button type="submit" class="btn btn-outline-dark px-4">Submit</button>
+      </div>
+    </div>
+  </form>
+</section>
+
 
 
 <!-- Footer / contact section -->
