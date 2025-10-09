@@ -97,6 +97,12 @@ h2 {
 #fav-games .card {
     border: none;
 }
+
+/*Events*/
+#events .table-dark * {
+    color:black;
+    background-color: transparent;
+}
 /*Footer / Contact */
 #contact {
     background-color: var(--primary-color);
@@ -127,6 +133,19 @@ padding-bottom: 3rem;
 
 #contact .table-dark * {
     background-color: transparent;
+}
+
+#student-discount {
+    display: inline-block;
+    border-radius: 0%;
+    font-size: 1rem;
+    padding: 8px 14px;
+    background-color: #416a8e;
+    color: white;
+    text-align: center;
+    width: fit-content;
+    margin: 15px auto;
+    max-width: 600px;
 }
 
 /* grid visualisation CSS for testing */
