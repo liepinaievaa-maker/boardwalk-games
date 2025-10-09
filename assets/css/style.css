@@ -1,3 +1,4 @@
+
 /**Google Fonts import**/
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
@@ -86,6 +87,8 @@ h2 {
   border: 2px solid var(--highlight-color);
   color: var(--highlight-color);
   background-color: transparent;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
@@ -175,6 +178,8 @@ padding-bottom: 3rem;
 #contact .social-links i {
     color: var(--highlight-color-light);
     font-size: 1.9rem;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
 }
 
@@ -193,6 +198,10 @@ padding-bottom: 3rem;
     padding: 8px 14px;
     background-color: #416a8e;
     color: white;
+   
+    width: -webkit-fit-content;
+   
+    width: -moz-fit-content;
    
     width: fit-content;
     margin: 15px auto;
